@@ -8,9 +8,9 @@
  */
 
 import { Application, Controller } from '@hotwired/stimulus';
+import { clearDOM, mountDOM } from '@symfony/stimulus-testing';
 import { getByTestId, waitFor } from '@testing-library/dom';
 import user from '@testing-library/user-event';
-import { clearDOM, mountDOM } from '@symfony/stimulus-testing';
 import DropzoneController from '../src/controller';
 
 // Controller used to check the actual controller was properly booted
