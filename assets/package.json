@@ -2,7 +2,16 @@
     "name": "@symfony/ux-dropzone",
     "description": "File input dropzones for Symfony Forms",
     "license": "MIT",
-    "version": "1.1.0",
+    "version": "2.23.0",
+    "keywords": [
+        "symfony-ux"
+    ],
+    "homepage": "https://ux.symfony.com/dropzone",
+    "repository": "https://github.com/symfony/ux-dropzone/tree/2.x",
+    "type": "module",
+    "files": [
+        "dist"
+    ],
     "main": "dist/controller.js",
     "types": "dist/controller.d.ts",
     "config": {
