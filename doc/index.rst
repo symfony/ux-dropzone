@@ -85,9 +85,9 @@ switching the ``@symfony/ux-dropzone/dist/style.min.css`` autoimport to
 .. note::
 
    *Note*: you should put the value to ``false`` and not remove the line
-   so that Symfony Flex won’t try to add the line again in the future.
+   so that Symfony Flex won't try to add the line again in the future.
 
-Once done, the default stylesheet won’t be used anymore and you can
+Once done, the default stylesheet won't be used anymore and you can
 implement your own CSS on top of the Dropzone.
 
 Extend the default behavior
