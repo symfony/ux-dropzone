@@ -11,8 +11,8 @@ import { Application, Controller } from '@hotwired/stimulus';
 import { getByTestId, waitFor } from '@testing-library/dom';
 import user from '@testing-library/user-event';
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
-import { clearDOM, mountDOM } from '../../../../test/stimulus-helpers';
-import DropzoneController from '../src/controller';
+import { clearDOM, mountDOM } from '../../../../../test/stimulus-helpers';
+import DropzoneController from '../../src/controller';
 
 // Controller used to check the actual controller was properly booted
 class CheckController extends Controller {
